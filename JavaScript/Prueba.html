@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title> Prueba </title>
+		<meta charset="UTF-8">
+
+		<!-- Línea usada para que se muestre el diseño adaptativo en smartphones y tablets -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+		<!-- CSS Styles -->	
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<link href="css/qunit-2.1.1.css" rel="stylesheet" type="text/css">
+		
+		<!-- JavaScript-Funciones -->		
+		<script type="text/javascript" src="Scripts/majorComb.js"></script>
+		<script type="text/javascript" src="Scripts/qunit-2.1.1.js"></script>
+		<script type="text/javascript" src="Scripts/tests.js"></script>		
+		
+		<!-- Fuente del titulo -->
+		<link href="https://fonts.googleapis.com/css?family=Orbitron:500" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">		
+		
+	</head>	
+	<body>
+		
+		<body bgcolor="#0277BD">
+		<div id="qunit"></div>
+		<h1><center>Prueba</center></h1>
+		
+		<div class="div-control-1">
+		<h2>Instrucciones:</h2>
+		<ol>
+			<li>Ingrese la lista separada por comas "1,2,3,4,5,...,n" en el recuadro de abajo y presione el boton "Enviar"</li>
+			<li>La lista no podra contener elementos negativos y solo admite numeros enteros.</li>
+			<li>En los cuadros debajo del boton "Enviar" se observara la lista y la mayor combinacion posible de sus elementos</li>
+			<li>Ejemplo: Lista( 1,2,3 ) Respuesta ( "321" )</li>
+		</ol>
+		</div>
+		
+		<form class = "form-control">
+			<center>Ingrese la lista:</center>
+			<center><input id = "inp" type="text" class = "input-control"></input></center>
+			
+		</form>
+		
+		<center><!--<button onclick="addList()">Agregar Lista</button>-->
+				<button class = "button-control" onclick="formu()">Enviar</button>
+		</center>
+
+		<div class="div-control">
+			<h4>Lista: </h4>		
+			<p id="demo"></p>
+			<!--<p id="demo2"></p>-->
+		</div>
+		
+		<div class="div-control">
+			<h4> Mayor combinacion posible: </h4>
+			<p id="demo1"></p>
+		</div>
+		
+		<!--<form>
+		<input id = "inp" type="text" class = "form-control"></input>
+		<button type="button" onclick="formu()">Enviar</button>
+		</form>-->
+
+	</body>
+</html>

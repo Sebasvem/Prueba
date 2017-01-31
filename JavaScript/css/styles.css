@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+h1{ color: white;
+	font-family: Orbitron;}
+				
+h2{ padding: 20px 10px 0px 20px;
+	color: white;
+	font-family: 'Sansita', sans-serif;}
+			
+h4{ padding: 5px 10px 0px 20px;
+	color: white;
+	font-family: 'Sansita', sans-serif;}
+				
+p{  padding: 0px 10px 20px 30px;
+    color: white;
+	font-family: 'Sansita', sans-serif;}
+			
+ol{ padding: 0px 10px 20px 50px;
+    color: white;
+	font-family: 'Sansita', sans-serif;}
+				
+.button-control{ background-color: #29B6F6; color: white; 
+				 padding: 10px 24px; 
+				 border: 5px solid ##0288D1;
+				 margin-top: 10px;
+				 margin-bottom: auto;
+				 font-family: 'Sansita', sans-serif;}
+
+.form-control{ font-family: 'Sansita', sans-serif;
+			   color: white}
+	   
+.div-control-1{ border-left: 10px solid #0288D1; 
+				background-color: #039BE5;}
+				 
+.div-control{ border-left: 10px solid #0288D1; 
+			  background-color: #039BE5; 
+			  margin-top: auto;
+			  margin-bottom: auto;
+			  position: relative;
+			  width: 500px;
+			  left: 420px;}
+	  
+.input-control{ background-color: #039BE5;
+			   border-left: 5px solid #0288D1;
+			   border-right: 5px solid #0288D1;
+			   color: white;
+			   width: 250px}
